@@ -1,7 +1,7 @@
 {
   "name": "austin-indians",
   "version": "0.1.0",
-  "homepage": "https://theaustinindians.com",
+  "homepage": "https://theaustinindians.com/austinindians/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",

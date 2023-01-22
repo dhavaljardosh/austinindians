@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/austinindians/static/css/main.ba2a1585.css",
-    "main.js": "/austinindians/static/js/main.9dae826e.js",
+    "main.js": "/austinindians/static/js/main.49f7a151.js",
     "static/js/787.e7b1d688.chunk.js": "/austinindians/static/js/787.e7b1d688.chunk.js",
     "static/media/page-screenshot.png": "/austinindians/static/media/page-screenshot.507497d4d9eb5215e38f.png",
     "static/media/austinindians-logo.png": "/austinindians/static/media/austinindians-logo.d7dbba9d30d1e55cf7ad.png",
@@ -39,11 +39,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/austinindians/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/austinindians/index.html",
     "main.ba2a1585.css.map": "/austinindians/static/css/main.ba2a1585.css.map",
-    "main.9dae826e.js.map": "/austinindians/static/js/main.9dae826e.js.map",
+    "main.49f7a151.js.map": "/austinindians/static/js/main.49f7a151.js.map",
     "787.e7b1d688.chunk.js.map": "/austinindians/static/js/787.e7b1d688.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba2a1585.css",
-    "static/js/main.9dae826e.js"
+    "static/js/main.49f7a151.js"
   ]
 }

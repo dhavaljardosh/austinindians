@@ -11,12 +11,11 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import { Link, Outlet } from "react-router-dom";
-import LandingPage from "./LandingPage";
 
 const pages = ["Events", "Gallery", "Social"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
-function Root() {
+const Root = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -146,5 +145,5 @@ function Root() {
       <Outlet />
     </>
   );
-}
+};
 export default Root;

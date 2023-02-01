@@ -53,7 +53,7 @@ const Copyright = () => {
   return (
     <Typography variant="body2" align="center">
       {"Copyright © "}
-      <Link style={{ color: "#EFF1F3" }} href="https://theaustinindians.com">
+      <Link to={"/"} style={{ color: "#EFF1F3" }}>
         www.theaustinindians.com
       </Link>{" "}
       {new Date().getFullYear()}

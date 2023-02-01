@@ -2,7 +2,7 @@
   "name": "austin-indians",
   "version": "0.1.0",
   "homepage": "https://dhavaljardosh.github.io/austinindians/",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",

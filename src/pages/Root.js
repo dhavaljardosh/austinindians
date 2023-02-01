@@ -10,7 +10,10 @@ import Container from "@mui/material/Container";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, Route, Routes } from "react-router-dom";
+import LandingPage from "./LandingPage";
+import Events from "./Events";
+import Gallery from "./Gallery";
 
 const pages = ["Events", "Gallery", "Social"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -51,7 +54,7 @@ const Root = () => {
               variant="h6"
               noWrap
               component="a"
-              href=""
+              href="/"
               sx={{
                 mr: 2,
                 display: { xs: "none", md: "flex" },
@@ -64,7 +67,6 @@ const Root = () => {
             >
               AustinIndians
             </Typography>
-
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
               <IconButton
                 size="large"
@@ -142,6 +144,19 @@ const Root = () => {
           </Toolbar>
         </Container>
       </AppBar>
+      <Routes>
+        <Route index element={<LandingPage />} />
+        <Route
+          path="/events"
+          element={<Events />}
+          errorElement={<h1>Event Error</h1>}
+        />
+        <Route
+          path="/gallery"
+          element={<Gallery />}
+          errorElement={<h1>Gallary Error</h1>}
+        />
+      </Routes>
       <Outlet />
     </>
   );

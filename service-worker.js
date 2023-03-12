@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/austinindians/precache-manifest.d47ebee4f00bef8251a4b90ff20c28f7.js"
+  "/austinindians/precache-manifest.63114a0c957a4016acdee44c734fffa5.js"
 );
 
 workbox.clientsClaim();

@@ -11,13 +11,13 @@
   "runtime~main.js.map": "/austinindians/static/js/runtime~main.be8a16b4.js.map",
   "static/media/page-screenshot.png": "/austinindians/static/media/page-screenshot.a30adecf.png",
   "static/media/austinindians-logo.png": "/austinindians/static/media/austinindians-logo.059fa318.png",
-  "static/media/300.css": "/austinindians/static/media/roboto-cyrillic-300-normal.9b9ec295.woff2",
-  "static/media/400.css": "/austinindians/static/media/roboto-vietnamese-400-normal.ca3b09b6.woff2",
-  "static/media/500.css": "/austinindians/static/media/roboto-vietnamese-500-normal.7cda2cfe.woff2",
-  "static/media/700.css": "/austinindians/static/media/roboto-vietnamese-700-normal.cdaab836.woff2",
+  "static/media/300.css": "/austinindians/static/media/roboto-latin-300-normal.b9c29351.woff2",
+  "static/media/400.css": "/austinindians/static/media/roboto-latin-ext-400-normal.87ace200.woff2",
+  "static/media/500.css": "/austinindians/static/media/roboto-all-500-normal.68d75d95.woff",
+  "static/media/700.css": "/austinindians/static/media/roboto-all-700-normal.aa462125.woff",
   "static/css/2.720fcbff.chunk.css.map": "/austinindians/static/css/2.720fcbff.chunk.css.map",
   "static/css/main.7feb040a.chunk.css.map": "/austinindians/static/css/main.7feb040a.chunk.css.map",
   "index.html": "/austinindians/index.html",
-  "precache-manifest.a75733273b274725fd9af3821d54d744.js": "/austinindians/precache-manifest.a75733273b274725fd9af3821d54d744.js",
+  "precache-manifest.3a5fea6991caa48d4498de779cc16239.js": "/austinindians/precache-manifest.3a5fea6991caa48d4498de779cc16239.js",
   "service-worker.js": "/austinindians/service-worker.js"
 }

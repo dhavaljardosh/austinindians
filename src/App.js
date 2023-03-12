@@ -5,7 +5,7 @@ import Root from "./pages/Root";
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="/">
       <Root />
       <Outlet />
     </HashRouter>

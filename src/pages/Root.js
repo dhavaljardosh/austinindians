@@ -145,7 +145,7 @@ const Root = () => {
         </Container>
       </AppBar>
       <Routes>
-        <Route index element={<LandingPage />} />
+        <Route index path="/" element={<LandingPage />} />
         <Route
           path="/events"
           element={<Events />}

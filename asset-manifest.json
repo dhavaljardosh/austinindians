@@ -1,7 +1,7 @@
 {
   "main.css": "/austinindians/static/css/main.7feb040a.chunk.css",
-  "main.js": "/austinindians/static/js/main.95bf0830.chunk.js",
-  "main.js.map": "/austinindians/static/js/main.95bf0830.chunk.js.map",
+  "main.js": "/austinindians/static/js/main.f98ce622.chunk.js",
+  "main.js.map": "/austinindians/static/js/main.f98ce622.chunk.js.map",
   "static/js/1.823d6cd0.chunk.js": "/austinindians/static/js/1.823d6cd0.chunk.js",
   "static/js/1.823d6cd0.chunk.js.map": "/austinindians/static/js/1.823d6cd0.chunk.js.map",
   "static/css/2.720fcbff.chunk.css": "/austinindians/static/css/2.720fcbff.chunk.css",
@@ -11,13 +11,13 @@
   "runtime~main.js.map": "/austinindians/static/js/runtime~main.be8a16b4.js.map",
   "static/media/page-screenshot.png": "/austinindians/static/media/page-screenshot.a30adecf.png",
   "static/media/austinindians-logo.png": "/austinindians/static/media/austinindians-logo.059fa318.png",
-  "static/media/300.css": "/austinindians/static/media/roboto-greek-ext-300-normal.c2be5367.woff2",
-  "static/media/400.css": "/austinindians/static/media/roboto-greek-ext-400-normal.35de3738.woff2",
-  "static/media/500.css": "/austinindians/static/media/roboto-latin-ext-500-normal.e36fccd0.woff2",
+  "static/media/300.css": "/austinindians/static/media/roboto-latin-300-normal.b9c29351.woff2",
+  "static/media/400.css": "/austinindians/static/media/roboto-all-400-normal.62b936e1.woff",
+  "static/media/500.css": "/austinindians/static/media/roboto-latin-500-normal.3a44e06e.woff2",
   "static/media/700.css": "/austinindians/static/media/roboto-latin-700-normal.e9f5aaf5.woff2",
-  "static/css/2.720fcbff.chunk.css.map": "/austinindians/static/css/2.720fcbff.chunk.css.map",
   "static/css/main.7feb040a.chunk.css.map": "/austinindians/static/css/main.7feb040a.chunk.css.map",
+  "static/css/2.720fcbff.chunk.css.map": "/austinindians/static/css/2.720fcbff.chunk.css.map",
   "index.html": "/austinindians/index.html",
-  "precache-manifest.20b146c33a8226bb64f92d4c1876543c.js": "/austinindians/precache-manifest.20b146c33a8226bb64f92d4c1876543c.js",
+  "precache-manifest.4165e4a2881a69d1768076a822ab48db.js": "/austinindians/precache-manifest.4165e4a2881a69d1768076a822ab48db.js",
   "service-worker.js": "/austinindians/service-worker.js"
 }

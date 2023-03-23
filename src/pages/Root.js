@@ -14,6 +14,9 @@ import { Link, Outlet, Route, Routes } from "react-router-dom";
 import LandingPage from "./LandingPage";
 import Events from "./Events";
 import Gallery from "./Gallery";
+import Social from "./Social";
+import { Advertise } from "./Advertise";
+import { Swad } from "./Swad";
 
 const pages = ["Events", "Gallery", "Social"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -155,6 +158,16 @@ const Root = () => {
           path="/gallery"
           element={<Gallery />}
           errorElement={<h1>Gallary Error</h1>}
+        />
+        <Route
+          path="/social"
+          element={<Social />}
+          errorElement={<h1>Gallary Error</h1>}
+        />
+        <Route
+          path="/advertise/swad"
+          element={<Swad />}
+          errorElement={<h1>Error in Advertise</h1>}
         />
       </Routes>
       <Outlet />

@@ -17,6 +17,7 @@ import Gallery from "./Gallery";
 import Social from "./Social";
 import { Advertise } from "./Advertise";
 import { Swad } from "./Swad";
+import FoodService from "./FoodService";
 
 const pages = ["Events", "Gallery", "Social"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -162,6 +163,11 @@ const Root = () => {
         <Route
           path="/social"
           element={<Social />}
+          errorElement={<h1>Gallary Error</h1>}
+        />
+        <Route
+          path="/foodService"
+          element={<FoodService />}
           errorElement={<h1>Gallary Error</h1>}
         />
         <Route

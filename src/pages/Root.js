@@ -15,17 +15,18 @@ import LandingPage from "./LandingPage";
 import Events from "./Events";
 import Gallery from "./Gallery";
 import Social from "./Social";
-import { Advertise } from "./Advertise";
 import { Swad } from "./Swad";
 import FoodService from "./FoodService";
+import SignupOrLogin from "../components/Auth/SignupOrLogin";
+import LoggedInUser from "../components/Auth/LoggedInUser";
+import { UserContext } from "../context/UserProvider";
 
 const pages = ["Events", "Gallery", "Social"];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const Root = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
-
+  const { user } = React.useContext(UserContext);
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
@@ -145,6 +146,8 @@ const Root = () => {
                 </Link>
               ))}
             </Box>
+            {user.auth ? <LoggedInUser /> : <SignupOrLogin />}
+            {user.firstName} {user.lastName}
           </Toolbar>
         </Container>
       </AppBar>
